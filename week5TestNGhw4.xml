@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="2" parallel="classes" name="Test">
+    <classes>
+      <class name="week5homeworkTestNG.CreateLeadSEMethod"/>
+      <class name="week5homeworkTestNG.MergeLeadSEMethod"/>
+      <class name="week5homeworkTestNG.DeleteLeadSEMethod"/>
+      <class name="week5homeworkTestNG.DuplicateLeadSEMethod"/>
+      <class name="week5homeworkTestNG.EditLeadSEMethod"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!--   4)
+a)EditLead and DeleteLead should be dependons on createLead,
+B) Duplicate Lead is not ready yet 
+c) createLead should 2times
+d) MeargeLead should completed within 20 sec
+e) Run Create, Edit, Delete,Duplicate and MergeLeads in parallel for 2 Thread counts and bring the observation. -->

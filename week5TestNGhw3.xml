@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test1">
+    <classes>
+      <class name="week5homeworkTestNG.CreateLeadSEMethod"/>
+      <class name="week5homeworkTestNG.EditLeadSEMethod"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2" parallel="classes" thread-count="2">
+    <classes>
+      <class name="week5homeworkTestNG.MergeLeadSEMethod"/>
+      <class name="week5homeworkTestNG.DeleteLeadSEMethod"/>
+    </classes>
+  </test> <!-- Test2 -->
+</suite> <!-- Suite -->
+
+<!-- 3) Execution
+                i) Run testcase CreateLead, EditLead sequentially and DeleteLead, MergeLead are parallely. -->

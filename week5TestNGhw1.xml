@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<!-- <include name="home1"></include> -->
+			<include name="Smoke1"></include>
+			<include name="Sanity1"></include>
+		</run>
+	</groups>
+	<test name="Test">
+		<classes>
+			<class name="week5homeworkTestNG.CreateLeadSEMethod" />
+			<class name="week5homeworkTestNG.MergeLeadSEMethod" />
+			<class name="week5homeworkTestNG.DeleteLeadSEMethod" />
+			<class name="week5homeworkTestNG.EditLeadSEMethod" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!-- 1) Implement Groups • Test Case CreateLead and Test case EditLead should 
+	be part of the group1 (Smoke) • Test Case DeleteLead and Test case MergeLead 
+	should be part of the group2 (Sanity) • Sanity should be depends on Smoke 
+	i) Run both groups ii) Run only Smoke -->
+

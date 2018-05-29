@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="122355" started-at="2018-05-27T13:02:14Z" finished-at="2018-05-27T13:04:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="122355" started-at="2018-05-27T13:02:14Z" finished-at="2018-05-27T13:04:17Z">
+      <class name="week9day2.PaypalSEMethodTestNG">
+        <test-method status="PASS" signature="login()[pri:0, instance:week9day2.PaypalSEMethodTestNG@1318ec4]" name="login" is-config="true" duration-ms="96665" started-at="2018-05-27T13:02:14Z" finished-at="2018-05-27T13:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="paypalSEMethod()[pri:0, instance:week9day2.PaypalSEMethodTestNG@1318ec4]" name="paypalSEMethod" duration-ms="24982" started-at="2018-05-27T13:03:51Z" finished-at="2018-05-27T13:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paypalSEMethod -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:week9day2.PaypalSEMethodTestNG@1318ec4]" name="closeapp" is-config="true" duration-ms="637" started-at="2018-05-27T13:04:16Z" finished-at="2018-05-27T13:04:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- week9day2.PaypalSEMethodTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
